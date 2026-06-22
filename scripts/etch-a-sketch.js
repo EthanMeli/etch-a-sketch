@@ -12,10 +12,15 @@ function initializeGrid(dims) {
     for (let j = 0; j < dims; j++) {
       const square = document.createElement("div");
       square.classList.add("square");
+      square.addEventListener("mouseenter", updateBgColor);
       row.appendChild(square);
     }
     container.appendChild(row);
   }
+}
+
+function updateBgColor() {
+  event.target.style.backgroundColor = "red";
 }
 
 initializeGrid(16);
