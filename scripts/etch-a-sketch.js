@@ -9,6 +9,7 @@ function initializeGrid(dims) {
 
   for (let i = 0; i < dims; i++) {
     const row = document.createElement("div");
+    row.classList.add("row-container");
     for (let j = 0; j < dims; j++) {
       const square = document.createElement("div");
       square.classList.add("square");
