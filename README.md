@@ -2,7 +2,7 @@
 
 ## Objectives
 The purpose of this project is to create a grid of squares that apply different effects
-when hovered over by the user. I am to demonstrate the following skills:
+when hovered over by the user. I aim to demonstrate the following skills:
   - HTML
   - CSS
   - Basic JavaScript
